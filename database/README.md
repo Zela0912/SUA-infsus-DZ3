@@ -14,7 +14,7 @@ Ili jednom naredbom:
 psql -U postgres -d sua_autoskola -f database/setup.sql
 ```
 
-## Datoteke koje su kroistene
+## Datoteke koje su korištene
 
 01_schema.sql – DROP + CREATE TABLE naredbe za sve tablice
 02_seed.sql – testni podaci (kategorije, korisnici, instruktori, kandidati, vozila, termini)

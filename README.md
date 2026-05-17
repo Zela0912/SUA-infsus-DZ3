@@ -1,7 +1,5 @@
 # SUA – Sustav za upravljanje autoškolom
 
-Projektni zadatak za kolegij Informacijski sustavi 2, FER.
-
 Aplikacija ima dva ekrana: **Termini nastave** (master-detail, CRUD) i **Kategorije dozvole** (šifrarnik, CRUD).
 
 ## Tech stack
@@ -40,4 +38,11 @@ Ako trebaš drugačije credentialse, napravi `.env`:
 
 ```
 DATABASE_URL=postgres://user:password@localhost:5432/sua_autoskola
+```
+
+Testiranje:
+
+```bash
+npm test
+RUN_DB_TESTS=1 npm test   # za testnu PostgreSQL bazu
 ```
